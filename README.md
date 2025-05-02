@@ -121,4 +121,16 @@ Provides admins with tools to monitor users, properties, reviews, and payments. 
 
 
 
+## 🔐 API Security
+
+To protect user data and ensure secure transactions, the following security measures will be implemented in the backend APIs:
+
+- **Authentication**: Only registered users can access protected endpoints using token-based systems like JWT (JSON Web Tokens).
+- **Authorization**: Role-based access control ensures that only users with appropriate permissions (e.g., host, guest, admin) can perform specific actions.
+- **Input Validation & Sanitization**: All user inputs are validated and sanitized to prevent common attacks like SQL Injection and Cross-Site Scripting (XSS).
+- **Rate Limiting**: API usage will be rate-limited to prevent abuse and brute-force attacks.
+- **HTTPS Encryption**: All data in transit will be encrypted using HTTPS to protect sensitive information like passwords and payments.
+- **Secure Password Storage**: Passwords are hashed using strong algorithms (e.g., bcrypt) before being stored in the database.
+
+These measures are vital to maintaining the integrity, availability, and confidentiality of the system.
 
