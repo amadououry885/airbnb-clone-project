@@ -134,3 +134,21 @@ To protect user data and ensure secure transactions, the following security meas
 
 These measures are vital to maintaining the integrity, availability, and confidentiality of the system.
 
+
+## 🔁 CI/CD Pipeline
+
+CI/CD stands for **Continuous Integration** and **Continuous Deployment**. It is a development practice that allows developers to integrate code changes frequently and automatically test and deploy them. This helps catch bugs early, speeds up delivery, and improves collaboration.
+
+For the Airbnb Clone project, we plan to implement the following CI/CD workflow:
+
+- **Continuous Integration**: Code is automatically tested whenever a new change is pushed to the repository.
+- **Continuous Deployment**: Once code passes all tests, it can be deployed automatically to a staging or production environment.
+
+### 🛠 Tools Used:
+- **GitHub Actions**: Automates testing and deployment pipelines.
+- **Docker**: Ensures the application runs consistently across different environments by containerizing it.
+- **Heroku / AWS / Render (optional)**: Can be used for automated deployment and hosting.
+
+This setup allows for faster iterations, fewer bugs in production, and better team productivity.
+
+
