@@ -32,3 +32,21 @@ The Airbnb Clone Project is a full-stack web development project inspired by Air
 | **Security Analyst**             | Ensure secure authentication, authorization, and safe data handling               |
 | **Project Manager**              | Oversee project progress, coordinate tasks, and manage team communication         |
 
+
+
+
+## ⚙️ Technology Stack
+
+
+| Technology     | Purpose |
+|----------------|---------|
+| **Django**     | A high-level Python web framework used to build robust and scalable backend systems and REST APIs. |
+| **MySQL**      | A relational database management system for storing user data, properties, bookings, and payments. |
+| **GraphQL**    | A modern API query language for efficient and flexible data retrieval between the client and server. |
+| **Docker**     | Used for containerizing the application, ensuring consistency across development and deployment environments. |
+| **GitHub Actions** | Automates testing, building, and deployment as part of the CI/CD pipeline. |
+| **Markdown**   | Used for project documentation like this README file. |
+| **Git**        | Version control system for tracking code changes and collaborating with team members. |
+
+
+
