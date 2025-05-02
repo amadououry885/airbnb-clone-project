@@ -19,3 +19,16 @@ The Airbnb Clone Project is a full-stack web development project inspired by Air
 - GraphQL (API Layer)
 - Docker (Containerization)
 - GitHub Actions (CI/CD)
+
+
+👥 Team Roles
+
+
+| Role                             | Responsibility                                                                    |
+| -------------------------------- | --------------------------------------------------------------------------------- |
+| **Backend Developer**            | Develop the business logic, APIs, and integrate with the database                 |
+| **Database Administrator (DBA)** | Design and maintain the database schema and ensure data integrity                 |
+| **DevOps Engineer**              | Set up and manage CI/CD pipelines, Docker containers, and deployment environments |
+| **Security Analyst**             | Ensure secure authentication, authorization, and safe data handling               |
+| **Project Manager**              | Oversee project progress, coordinate tasks, and manage team communication         |
+
