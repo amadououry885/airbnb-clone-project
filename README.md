@@ -50,3 +50,50 @@ The Airbnb Clone Project is a full-stack web development project inspired by Air
 
 
 
+## 🗃️ Database Design
+
+### 🔹 Users
+- `id` (Primary Key)
+- `name`
+- `email`
+- `password_hash`
+- `role` (e.g., host or guest)
+
+### 🔹 Properties
+- `id` (Primary Key)
+- `owner_id` (Foreign Key → Users)
+- `title`
+- `location`
+- `price_per_night`
+
+### 🔹 Bookings
+- `id` (Primary Key)
+- `user_id` (Foreign Key → Users)
+- `property_id` (Foreign Key → Properties)
+- `start_date`
+- `end_date`
+
+### 🔹 Reviews
+- `id` (Primary Key)
+- `user_id` (Foreign Key → Users)
+- `property_id` (Foreign Key → Properties)
+- `rating`
+- `comment`
+
+### 🔹 Payments
+- `id` (Primary Key)
+- `booking_id` (Foreign Key → Bookings)
+- `amount`
+- `payment_method`
+- `status`
+
+### 🔗 Relationships
+- A **user** can list multiple **properties**.
+- A **user** can make multiple **bookings**.
+- Each **booking** is tied to a **property**.
+- Each **booking** has a **payment** record.
+- A **user** can leave multiple **reviews** for different **properties**.
+
+
+
+
