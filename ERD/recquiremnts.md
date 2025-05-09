@@ -124,7 +124,4 @@ The following diagram illustrates the full data model including keys, attributes
 
 ---
 
-## 📁 File Location
-
-This diagram is located in the repository under:
 
